@@ -41,12 +41,6 @@ function VacancyDetails() {
         <p className="text-gray-800">{vacancy.description}</p>
       </div>
 
-      {/* Requirements */}
-      <div className="bg-[#FFF0F5] p-6 rounded-xl shadow-md">
-        <h2 className="text-xl font-semibold text-gray-700 mb-1">Requirements</h2>
-        <p className="text-gray-800">{vacancy.requirements || "Not specified"}</p>
-      </div>
-
       {/* Location */}
       <div className="bg-[#F0FFF4] p-6 rounded-xl shadow-md">
         <h2 className="text-xl font-semibold text-gray-700 mb-1">Location</h2>

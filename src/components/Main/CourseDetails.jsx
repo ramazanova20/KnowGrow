@@ -50,7 +50,7 @@ function CourseDetails() {
 
             {/* Media Preview */}
             {course.file && (
-              <div className="mb-3 max-h-48 overflow-hidden rounded-xl shadow-inner">
+              <div className="mb-3 overflow-hidden rounded-xl shadow-inner">
                 {course.file.startsWith("data:image") ? (
                   <img src={course.file} alt={course.title} className="w-full h-full object-cover" />
                 ) : course.file.startsWith("data:video") ? (

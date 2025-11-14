@@ -4,28 +4,28 @@ import { motion, AnimatePresence } from "framer-motion";
 const quotes = [
   {
     img: "https://images.pexels.com/photos/1485657/pexels-photo-1485657.jpeg",
-    text: "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
-    author: "– Malcolm X",
+    // text: "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+    // author: "– Malcolm X",
   },
   {
     img: "https://images.pexels.com/photos/6956352/pexels-photo-6956352.jpeg",
-    text: "The beautiful thing about learning is that no one can take it away from you.",
-    author: "– B.B. King",
+    // text: "The beautiful thing about learning is that no one can take it away from you.",
+    // author: "– B.B. King",
   },
   {
     img: "https://images.pexels.com/photos/6185653/pexels-photo-6185653.jpeg",
-    text: "Teaching is the one profession that creates all other professions.",
-    author: "– Unknown",
+    // text: "Teaching is the one profession that creates all other professions.",
+    // author: "– Unknown",
   },
   {
     img: "https://images.pexels.com/photos/5842225/pexels-photo-5842225.jpeg",
-    text: "The purpose of education is to replace an empty mind with an open one.",
-    author: "– Malcolm Forbes",
+    // text: "The purpose of education is to replace an empty mind with an open one.",
+    // author: "– Malcolm Forbes",
   },
   {
     img: "https://images.pexels.com/photos/6185549/pexels-photo-6185549.jpeg",
-    text: "Learning never exhausts the mind. It only fuels it.",
-    author: "– Leonardo da Vinci",
+    // text: "Learning never exhausts the mind. It only fuels it.",
+    // author: "– Leonardo da Vinci",
   },
 ];
 
@@ -41,7 +41,7 @@ function Quotes() {
   }, []);
 
   return (
-    <div className="relative w-full h-[350px] sm:h-[500px] md:h-[650px] overflow-hidden rounded-2xl shadow-lg mt-10">
+    <div className="relative w-full h-[350px] sm:h-[500px] md:h-[750px] overflow-hidden rounded-2xl shadow-lg mt-10">
       <AnimatePresence mode="wait">
         <motion.div
           key={index}
